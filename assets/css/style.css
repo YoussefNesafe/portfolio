@@ -244,6 +244,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
 }
+@media (max-width: 430px) {
+  #hero .hero-container{
+    margin-left: 30px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Sections General
@@ -412,8 +417,12 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #173b6c;
   margin-bottom: 10px;
+}
+.resume .resume-item span {
+   font-style: italic;
+   font-size: 13px;
 }
 .resume .resume-item h5 {
   font-size: 16px;
@@ -444,6 +453,11 @@ section {
   border: 2px solid #1f5297;
 }
 
+@media (max-width: 420px) {
+  .resume .resume-item span {
+    display: block !important;
+  }
+}
 
 /*--------------------------------------------------------------
 # Contact
